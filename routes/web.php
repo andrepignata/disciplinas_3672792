@@ -13,4 +13,11 @@
 
 Route::get('/', function () {
     return view('welcome');
+    
 });
+
+Route::get('/{numero}', function ($numero) {
+    // return view('welcome');
+    return $numero;
+});
+
