@@ -11,10 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
     
-});
+// });
+
+Route::get('/', 'DisciplinaController@index');
+Route::resource('disciplinas', 'DisciplinaController');
 
 Route::get('/{numero}', function ($numero) {
     // return view('welcome');
