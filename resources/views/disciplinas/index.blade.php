@@ -5,3 +5,5 @@
 		</a>
 @endforeach
 </ul>
+
+<a href="/disciplinas/create">Cria uma nova disciplina</a>
